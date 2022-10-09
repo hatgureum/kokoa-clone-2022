@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px;
+  margin-top: 50px;
+  padding: 20px 10px;
+  border-bottom: var(--border-bottom);
+}
+
+.header div:first-child {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.header__column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__column span {
+  display: block;
+  margin: 0px 10px;
+  width: 100%;
+}
+
+.rowHeader {
+  margin: 20px 20px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  color: var(--color-gray);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

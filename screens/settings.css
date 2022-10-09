@@ -1,0 +1,37 @@
+.settings-photo {
+  position: relative;
+}
+
+.settings-photo__edit {
+  position: absolute;
+  background-color: pink;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: -5px;
+  bottom: -5px;
+}
+
+.settings-list {
+  margin: 10px 20px;
+}
+
+.settings-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 0px;
+  padding: 20px;
+  border-bottom: var(--border-bottom-sub);
+}
+
+.settings-item__icon {
+  margin-right: 50px;
+}
+
+.settings-item__title {
+  font-size: 30px;
+}

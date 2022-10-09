@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>IZOne Talk</title>
+  </head>
+  <body>
+    <div class="status">
+      <div>
+        <span>No Service</span>
+        <span><i class="fas fa-wifi"></i></span>
+      </div>
+      <div>
+        <span>18:43</span>
+      </div>
+      <div>
+        <span><i class="fas fa-volume-mute"></i></span>
+        <span>100%</span>
+        <span><i class="fas fa-battery-full"></i></span>
+      </div>
+    </div>
+    <main id="login-screen">
+      <div class="login-screen__welcome">
+        <h3 class="login-screen__welcome__title">Welcome to IZOne Talk</h3>
+        <p class="login-screen__welcome__subtitle">
+          If you have a IZOne Talk Account, log in with your name.
+        </p>
+      </div>
+
+      <form class="login-form" action="friends.html" method="get">
+        <input required type="text" placeholder="Username" name="username" />
+        <input
+          required
+          type="password"
+          placeholder="Password"
+          minlength="8"
+          name="password"
+        />
+        <input type="submit" value="Log In" />
+      </form>
+    </main>
+  </body>
+</html>

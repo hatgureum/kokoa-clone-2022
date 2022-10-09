@@ -1,0 +1,15 @@
+.status {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  background-color: inherit;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.status div {
+  margin: 10px 20px;
+  font-size: 20px;
+}
