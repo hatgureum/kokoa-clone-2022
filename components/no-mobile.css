@@ -18,8 +18,8 @@
   }
 }
 
-@media screen and (orientation: landscape) {
+@media screen and (orientation: portrait) {
   #no-mobile {
-    display: enable;
+    display: none;
   }
 }
