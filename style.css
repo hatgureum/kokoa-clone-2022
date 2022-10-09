@@ -1,5 +1,4 @@
 @import "reset.css";
-@import "status.css";
 @import "variables.css";
 /* Screens */
 @import "screens/login.css";
@@ -11,6 +10,8 @@
 @import "components/user.css";
 @import "components/icons.css";
 @import "components/alt-header.css";
+@import "components/no-mobile.css";
+@import "components/status.css";
 
 @media screen and (min-width: 800px) {
 }
@@ -23,5 +24,4 @@
 body {
   box-sizing: border-box;
   background-color: rgb(226, 184, 198);
-  position: relative;
 }

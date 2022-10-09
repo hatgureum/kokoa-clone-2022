@@ -16,8 +16,41 @@
   color: black;
 }
 
+@keyframes BtnAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 .nav__item {
   position: relative;
+  transform: translateY(50px);
+  opacity: 0;
+  animation: BtnAnimation 0.5s ease-in-out forwards;
+}
+
+.nav__item:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.nav__item:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+@keyframes MsgAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
 }
 
 .numOfMsg {
@@ -37,4 +70,5 @@
   position: absolute;
   right: -15px;
   top: -10px;
+  animation: MsgAnimation 3s ease-in-out infinite;
 }
