@@ -25,3 +25,7 @@ body {
   box-sizing: border-box;
   background-color: rgb(226, 184, 198);
 }
+
+.empty-box {
+  height: 70px;
+}
