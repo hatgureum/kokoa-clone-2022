@@ -1,4 +1,5 @@
 .status {
+  z-index: 98;
   display: flex;
   justify-content: space-between;
   position: fixed;

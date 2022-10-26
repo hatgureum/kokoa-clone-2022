@@ -1,4 +1,4 @@
-#no-mobile {
+#no-landscape {
   position: absolute;
   z-index: 99;
   height: 100vh;
@@ -12,14 +12,8 @@
   left: 0;
 }
 
-@media screen and (max-width: 700px) {
-  #no-mobile {
-    display: none;
-  }
-}
-
 @media screen and (orientation: portrait) {
-  #no-mobile {
+  #no-landscape {
     display: none;
   }
 }
